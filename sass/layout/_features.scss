@@ -1,0 +1,88 @@
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $primary-font-color;
+}
+
+.features-list {
+    display: flex;
+}
+
+.features-list-item {
+    width: 270px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.features-list-head {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primary-text-color;
+}
+
+.features-list-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $secondary-text-color;
+}
+
+.attentiveness .features-list-head::before {
+    display: block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: $secondary-font-color;
+    background-image: url(../images/svg/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.punctuality .features-list-head::before {
+    display: block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: $secondary-font-color;
+    background-image: url(../images/svg/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.planning .features-list-head::before {
+    display: block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: $secondary-font-color;
+    background-image: url(../images/svg/diagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.innovation .features-list-head::before{
+    display: block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: $secondary-font-color;
+    background-image: url(../images/svg/astronaut.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
